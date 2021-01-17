@@ -44,9 +44,9 @@ The best performing model was a **Voting Ensemble**. This was found using **Auto
 - Here we have used the **BanditPolicy** for early stopping policy. you can check [here](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.hyperdrive.banditpolicy?view=azure-ml-py)  
   
   
-  ![Child Runs](https://github.com/prathyushapatel/ML_with_Azure_Nanodegree/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Images/Child_runs.png?raw=true "Child Runs")
+  ![Child Runs](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Child_runs.png?raw=true "Child Runs")
   
-  ![HyperDrive Metrics](https://github.com/prathyushapatel/ML_with_Azure_Nanodegree/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Images/HyperDrive_Metrics.png?raw=true "HyperDrive Metrics")
+  ![HyperDrive Metrics](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/HyperDrive_Metrics.png?raw=true "HyperDrive Metrics")
 
 ## AutoML
   1.  Automated machine learning, also referred to as automated ML or AutoML, is the process of automating the time consuming, iterative Traditional tasks of machine learning model development, It is known for its incredible flexibility.
@@ -57,11 +57,11 @@ The best performing model was a **Voting Ensemble**. This was found using **Auto
 
 In this project, we set the AutoML configuration with **Accuracy** as primary metric and cross validation. The cross validation is important to avoid overfitting and helps generalize the model better. For computational reasons, in this experiment, the experiment pre-defined timeout was set to 30 Minutes which have limited the number of Models that could be built.
 
- ![AutoML_Models](https://github.com/prathyushapatel/ML_with_Azure_Nanodegree/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Images/AutoML_Models.png?raw=true "AutoML_Models")
- ![Best_AutoML_Model](https://github.com/prathyushapatel/ML_with_Azure_Nanodegree/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Images/Best_AutoML_Model.png?raw=true "Best_AutoML_Model")
- ![Best_AutoML_Metrics](https://github.com/prathyushapatel/ML_with_Azure_Nanodegree/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Images/Best_AutoML_Metrics.png?raw=true "Best_AutoML_Metrics")
- ![AutoML_Features](https://github.com/prathyushapatel/ML_with_Azure_Nanodegree/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Images/AutoML_Features.png?raw=true "AutoML_Features")
- ![AutoML_BoxPlot](https://github.com/prathyushapatel/ML_with_Azure_Nanodegree/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Images/AutoML_BoxPlot.png?raw=true "AutoML_BoxPlot")
+ ![AutoML_Models](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/AutoML_Models.png?raw=true "AutoML_Models")
+ ![Best_AutoML_Model](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Best_AutoML_Model.png?raw=true "Best_AutoML_Model")
+ ![Best_AutoML_Metrics](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Best_AutoML_Metrics.png?raw=true "Best_AutoML_Metrics")
+ ![AutoML_Features](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/AutoML_Features.png?raw=true "AutoML_Features")
+ ![AutoML_BoxPlot](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/AutoML_BoxPlot.png?raw=true "AutoML_BoxPlot")
  
 
 ## Pipeline comparison
@@ -76,4 +76,4 @@ In this project, we set the AutoML configuration with **Accuracy** as primary me
 - We can modify the experiments with other hyperparameters and increase the cross validation to enhance models performance and generalization.
 
 ## Proof of cluster clean up
-![Delete_Cluster](https://github.com/prathyushapatel/ML_with_Azure_Nanodegree/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Images/Delete_Cluster.png?raw=true "Delete_Cluster")
+![Delete_Cluster](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Delete_Cluster.png?raw=true "Delete_Cluster")
