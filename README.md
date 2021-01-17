@@ -20,7 +20,7 @@ The best performing model was a **Voting Ensemble**. This was found using **Auto
 5. We have build a report by comparing both the above model & Make a solid understanding on AzureML Studio with the best practices of MLOps.
 
 **Pipeline Architect**
-![Pipeline Architect](https://github.com/prathyushapatel/ML_with_Azure_Nanodegree/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Images/Pipeline_Architect.JPG?raw=true "Pipeline Architect")
+![Pipeline Architect]https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Pipeline_Architect.JPG?raw=true "Pipeline Architect")
 
 ## Scikit-learn Pipeline
 **The pipeline architecture**
