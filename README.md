@@ -8,6 +8,9 @@ In This project we have used Azure ML Studio and a "Bank Marketing" Dataset whic
 
 The best performing model was a **Voting Ensemble**. This was found using **AutoML** feature of Azure.
 
+A voting ensemble (or a “majority voting ensemble“) is an ensemble machine learning model that combines the predictions from multiple other models.
+It is a technique that may be used to improve model performance, ideally achieving better performance than any single model used in the ensemble.
+
 ### Files Used to perform the Analysis are 
 - train.py
 - udacity-project.ipynb
@@ -57,12 +60,22 @@ The best performing model was a **Voting Ensemble**. This was found using **Auto
 
 In this project, we set the AutoML configuration with **Accuracy** as primary metric and cross validation. The cross validation is important to avoid overfitting and helps generalize the model better. For computational reasons, in this experiment, the experiment pre-defined timeout was set to 30 Minutes which have limited the number of Models that could be built.
 
+A voting ensemble (or a “majority voting ensemble“) is an ensemble machine learning model that combines the predictions from multiple other models.
+It is a technique that may be used to improve model performance, ideally achieving better performance than any single model used in the ensemble.
+
+Hyperparametres:
+max_iter=1000 - Number of iterations is 1000
+n_jobs=1 - Number of parallel jobs is 1
+penalty=l2 - it uses L2 regularization
+voting is not given, so it takes 'hard' -It uses predicted class labels for majority rule voting
+
  ![AutoML_Models](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/AutoML_Models.png?raw=true "AutoML_Models")
  ![Best_AutoML_Model](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Best_AutoML_Model.png?raw=true "Best_AutoML_Model")
  ![Best_AutoML_Metrics](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/Best_AutoML_Metrics.png?raw=true "Best_AutoML_Metrics")
  ![AutoML_Features](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/AutoML_Features.png?raw=true "AutoML_Features")
  ![AutoML_BoxPlot](https://github.com/prathyushapatel/Optimizing-an-ML-Pipeline-in-Azure/blob/main/Images/AutoML_BoxPlot.png?raw=true "AutoML_BoxPlot")
  
+
 
 ## Pipeline comparison
 - Overall,the difference in accuracy between the AutoML model and the Hyperdrive tuned custom model is very small. AutoML accuracy was 0.917238 while the Hyperdrive accuracy was 0.910268
